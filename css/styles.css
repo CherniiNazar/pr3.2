@@ -1,0 +1,66 @@
+.container{
+    padding-left: 17%;
+    max-width: 1200px;
+    width: 75%;
+    min-width: 500px;
+    margin: 20px auto;
+   
+}
+.block{
+    width: 40%;/* Змінено фіксоване значення на відносне */
+    padding: 1.5%;
+    /* width: 460px;
+    padding: 15px; */
+    border: 2px solid #ff0000; 
+    margin: 0;
+    box-sizing: border-box;
+    height: 35vh;
+    float: left;
+}
+.block:nth-child(5n-4) {
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.block:nth-child(5n-3) {
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.block:nth-child(4n) {
+    border-left:1px solid red;
+    border-top: 1px solid red;
+}
+.block:nth-child(3n) {
+    border-top:1px solid red;
+    border-right: 1px solid red;
+}
+h1{
+    margin-left: 38%;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 0;
+    display: inline-block;   
+}
+span{
+    margin-left: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid red;
+    text-align: center;
+    line-height: 30px;
+}
+li:nth-child(even) {
+    color: red;
+}
+ul {
+    list-style-type: "-"; /* Змінюю звичайні маркери списку */
+    margin-left: 15px;
+}
+/* ul li::before {
+    content: "-"; Замінюємо звичайні маркери на тезу
+    margin-right: 5px;
+} */
+
